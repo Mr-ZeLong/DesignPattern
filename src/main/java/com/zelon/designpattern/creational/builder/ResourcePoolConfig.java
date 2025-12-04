@@ -1,4 +1,4 @@
-package com.zelon.designpattern.builder;
+package com.zelon.designpattern.creational.builder;
 
 /*
 建造者模式
@@ -26,7 +26,7 @@ public class ResourcePoolConfig {
 
     public static void main(String[] args) {
         // 建造者模式创建对象
-        ResourcePoolConfig config = new ResourcePoolConfig.Builder()
+        ResourcePoolConfig config = new Builder()
                 .setName("dbconnectionpool")
                 .setMaxTotal(16)
                 .setMaxIdle(8)

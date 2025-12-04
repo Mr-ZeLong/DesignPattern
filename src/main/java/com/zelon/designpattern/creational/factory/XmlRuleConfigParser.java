@@ -1,4 +1,4 @@
-package com.zelon.designpattern.factory;
+package com.zelon.designpattern.creational.factory;
 
 public class XmlRuleConfigParser implements IRuleConfigParser {
     @Override

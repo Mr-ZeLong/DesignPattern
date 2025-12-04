@@ -1,4 +1,4 @@
-package com.zelon.designpattern.proxy;
+package com.zelon.designpattern.structural.proxy;
 /*
 代理模式
 一、使用场景

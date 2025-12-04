@@ -1,4 +1,4 @@
-package com.zelon.designpattern.proxy;
+package com.zelon.designpattern.structural.proxy;
 
 public interface IUserController {
     UserVo login(String telephone, String password);

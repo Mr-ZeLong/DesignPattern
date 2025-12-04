@@ -1,4 +1,4 @@
-package com.zelon.designpattern.singleton;
+package com.zelon.designpattern.creational.singleton;
 
 
 import java.util.concurrent.atomic.AtomicInteger;
