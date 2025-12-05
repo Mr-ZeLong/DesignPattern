@@ -34,6 +34,7 @@ public class HandlerChain {
         }
     }
 
+    // 这些属于客户端代码，客户端代码要想不修改，就得通过配置文件 + 反射的方式来实现。
     public static void main(String[] args) {
         HandlerChain handlerChain = new HandlerChain();
         handlerChain.addHandler(new HandlerA());
